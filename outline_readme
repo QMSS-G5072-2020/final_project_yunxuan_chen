@@ -1,0 +1,20 @@
+Name of this project:
+Data processing pipeline with web data
+
+Type of project:
+A client API is compiled as executive binary.
+
+Brief description of the purpose:
+We need face a large amount of online data every day, but it is not easy for some non-professional users from the perspective of programming. To address this problem, I’m ready to build a smart and user-friendly API so that we can process data within one line code.
+
+Links to data sources / API:
+https://openweathermap.org/
+
+Outline the technical steps / challenges:
+1. get online data by calling API
+2.parse data if its type is JSON or XML
+3. wrap the parsed data through Numpy or Pandas, then address the classification or regression task on these data.
+4. perform some data cleaning and preprocessing techniques, for instance filling missing values, encode categorical features, normalization. I still need to complete the classification or regression task after applying some machine learning models.
+5. Add docstrings und use Sphinx to generate package documentation
+6. Make your package and associated material available online
+7. Use Jupyter Notebook to generate a vignette on how to use your package functions
